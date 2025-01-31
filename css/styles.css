@@ -32,7 +32,7 @@ body {
 header.container-head{
   position: relative;
   overflow: hidden;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   }
 
@@ -52,7 +52,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 72px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 header.sol-blok, header.sag-blok {
@@ -93,6 +93,7 @@ header.sol-blok{
 
 .menu-gen {
   display: flex;
+  gap: 20px;
 }
 
 .menu-item {
@@ -110,6 +111,15 @@ header.sol-blok{
 
 
 /* Hero Section */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
 .section-one {
   background: url(../images/people-office1.jpg) no-repeat center/cover;
   position: relative;
@@ -130,6 +140,11 @@ header.sol-blok{
   opacity: 0.8;
   z-index: 0;
 }
+.section-one {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 188px 0;
+}
 
 h1,
 h2,
@@ -145,10 +160,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-
-
-
 
 .header-three {
   text-align: center;
@@ -174,15 +185,12 @@ ul {
 .section {
   padding: 188px 0;
 }
-.section-one {
-  background-color: #2e2f42;
-  text-align: center;
-  padding: 188px 0;
-}
+
 .section-two {
   padding: 120px 0;
 }
 .main-header {
+  position: relative;
   color: #fff;
   font-size: 56px;
   line-height: 1.07;
@@ -223,7 +231,7 @@ ul {
   text-align: center;
   margin-bottom: 20px;
   border-radius: 0px 0px 4px 4px;
-  width: 260;
+  width: 260px;
   overflow: hidden;
 }
 .team-card img{
@@ -243,7 +251,7 @@ ul {
   margin-bottom: 8px;
   font-size: 18px;
 }
-.team div p {
+.team-div p {
   font-size: 14px;
   color: #737373;
 }
@@ -257,7 +265,7 @@ ul {
   background-color: #fff;
 }
 .portfolio-card {
-  flex-basis: calc((100% - 72px) /) 4;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio-item {
   display: flex;
@@ -294,7 +302,7 @@ ul {
   font-size: 14px;
   line-height: 1.5;
   max-width: 264px;
-  margin: 16 px auto 0;
+  margin: 16px auto 0;
 }
 
 .logo-white {
