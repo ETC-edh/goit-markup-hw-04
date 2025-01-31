@@ -99,7 +99,6 @@ header.sol-blok {
   color: #2e2f42;
   text-decoration: none;
 position: relative;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-item-bir {
   font-weight: 500;
@@ -110,7 +109,7 @@ position: relative;
 position: relative;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-item-bir {
+.menu-item-bir::after {
   content: "";
   position: absolute;
   bottom: -1px;
