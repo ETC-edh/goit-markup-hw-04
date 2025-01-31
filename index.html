@@ -4,81 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
+    <link rel="stylesheet" href="reset.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
       rel="stylesheet"
     />
-    <style>
-      .sol-blok {
-
-      }
-      img {
-        display: block;
-      }
-      nav {
-        display: flex;
-        align-items: center;
-      }
-      a {
-        margin-right: 76px;
-        display: inline-block;
-        margin-bottom: 16px;
-      }
-      ul {
-        display: flex;
-        gap: 40px;
-      }
-      .container {
-        padding: 0 15px;
-        max-width: 1158px;
-        margin: 0 auto;
-      }
-      /* Address Section */
-      .contact-info {
-        font-style: normal;
-      }
-      .contact-item {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-      }
-      .contact-item:hover,
-      .contact-item:focus {
-        color: #404bbf;
-      }
-
-      h1 {
-        max-width: 496px;
-      }
-      h2 {
-        margin-bottom: 72px;
-        text-align: center;
-        color: #2e2f42;
-      }
-
-      h3 {
-        margin-bottom: 8px;
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="container-head">
       <!--sol-blok-->
       <div class="sol-blok">
         <!--logo-->
         <div class="logo">
-          <svg class="icon icon-logo">
-            <use xlink:href="images/symbol-defs.svg#icon-logo"></use>
+          <svg class="icon icon-icon-logo">
+            <use xlink:href="/images/symbol-defs.svg#icon-icon-logo"></use>
           </svg>
         </div>
         <!--logo-end-->
@@ -100,29 +47,6 @@
         <address class="contact-info">
           <ul class="menu-gen">
             <li>
-              <a href="mailto:info@devstudio.com" class="contact-item">info@devstudio.com</a>
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="contact-item">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-      <!--sag-blok end-->
-    </header>
-
-    <header class="header">
-      <div class="container">
-        <nav class="nav-menu">
-          <ul class="menu-gen">
-            <li><a href="./index.html" class="menu-item">Studio</a></li>
-            <li><a href="#" class="menu-item">Portfolio</a></li>
-            <li><a href="#" class="menu-item">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="contact-info">
-          <ul class="menu-gen">
-            <li>
               <a href="mailto:info@devstudio.com" class="contact-item"
                 >info@devstudio.com</a
               >
@@ -135,6 +59,7 @@
           </ul>
         </address>
       </div>
+      <!--sag-blok end-->
     </header>
     <!--End of Header-->
 
