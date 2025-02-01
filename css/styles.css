@@ -551,6 +551,8 @@ header.sol-blok {
 }
 .sol-blok nav {
   margin-left: 76px;
+  display: flex;
+  align-items: center;
 }
 .sol-blok nav ul {
   display: flex;
@@ -926,7 +928,7 @@ text-decoration: none;
   .logo-p{
     margin-right: 120px;
   }
-  
+
 .footer-info {
   max-width: 400px;
   display: flex;
