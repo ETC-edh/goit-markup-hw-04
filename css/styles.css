@@ -29,26 +29,20 @@ body {
 }
 
 /* Header */
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
-
   overflow: hidden;
   max-width: 1440px;
   margin: 0 auto;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-  0px 1px 1px rgba(46, 47, 66, 0.16),
-  0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   justify-content: space-between;
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #e7e9fc;
   padding: 20px 40px;
   height: 72px;
-
 }
-
 
 .logo-class svg {
   margin-left: 156px;
@@ -57,7 +51,6 @@ body {
   width: 115px;
   height: 24px;
 }
-
 
 /* Navigation Menu */
 .nav-menu {
@@ -119,10 +112,9 @@ body {
   color: #404bbf;
 }
 
-
 /* Hero Section */
 .section-one {
-justify-content: center;
+  justify-content: center;
   text-align: center;
   background-color: #2e2f42;
   padding: 188px 0;
@@ -137,9 +129,8 @@ justify-content: center;
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office1.jpg);
-    width: 100%;
+  width: 100%;
 }
-
 
 /* Container */
 .container {
@@ -181,8 +172,8 @@ justify-content: center;
 }
 .social-item a:hover,
 .social-item a:focus {
-    background-color: #404bbf;
-  }
+  background-color: #404bbf;
+}
 .social-icon {
   width: 16px;
   height: 16px;
@@ -191,8 +182,7 @@ justify-content: center;
 h1,
 h2,
 h3,
-p
-{
+p {
   margin: 0;
   padding: 0;
 }
@@ -216,7 +206,7 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
-text-decoration: none;
+  text-decoration: none;
 }
 .logo-highlight {
   color: #2e2f42;
@@ -289,7 +279,7 @@ text-decoration: none;
   gap: 24px;
   justify-content: center;
 }
-.team-social-links{
+.team-social-links {
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -333,20 +323,18 @@ text-decoration: none;
   overflow: hidden;
 }
 .portfolio-card:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-              0px 1px 1px rgba(46, 47, 66, 0.16), 
-              0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-* Portfolio Image Container */
-.portfolio-img-container {
-    position: relative;
-    overflow: hidden;
+* Portfolio Image Container */ .portfolio-img-container {
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio-img-container img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .portfolio-overlay-text {
   position: absolute;
@@ -431,23 +419,23 @@ text-decoration: none;
   margin: 0 auto;
   gap: 20px;
 }
-  .footer-logo-container{
-    margin-right: 120px;
-  }
-  .logo-white {
-    color: #f4f4fd;
-  }
+.footer-logo-container {
+  margin-right: 120px;
+}
+.logo-white {
+  color: #f4f4fd;
+}
 
-  .footer-text {
-    font-size: 14px;
-    line-height: 1.5;
-    max-width: 264px;
-    margin-top: 8px;
-    color: #f4f4fd;
-    }
+.footer-text {
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 264px;
+  margin-top: 8px;
+  color: #f4f4fd;
+}
 
 /* Sosyal Medya Başlığı */
-.footer-social{
+.footer-social {
   text-align: left;
 }
 
@@ -456,10 +444,9 @@ text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
-
 
 /* Sosyal Medya Listesi */
 .foot-social-links {
@@ -475,15 +462,15 @@ text-decoration: none;
   width: 40px;
   height: 40px;
 }
-.footer-links{
-background-color: #4d5ae5;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-width: 100%;
-height: 100%;
+.footer-links {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  height: 100%;
 }
 /* Sosyal Medya Hover ve Focus Efektleri */
 .footer-links:hover,
