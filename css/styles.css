@@ -919,7 +919,6 @@ text-decoration: none;
   padding: 40px 20px;
 }
 .footer-container {
-  display: flex;
   justify-content: space-between;
   align-items: baseline;
   max-width: 1158px;
@@ -929,12 +928,6 @@ text-decoration: none;
     margin-right: 120px;
   }
 
-.footer-info {
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
 
 .footer-text {
   font-size: 14px;
@@ -960,7 +953,6 @@ text-decoration: none;
 .foot-social-links {
   display: flex;
   gap: 16px;
-  
 }
 
 /* Sosyal Medya Link */
