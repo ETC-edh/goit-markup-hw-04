@@ -55,6 +55,7 @@ body {
 /* Navigation Menu */
 .nav-menu {
   margin-left: auto;
+  position: relative;
 }
 .nav-list {
   display: flex;
