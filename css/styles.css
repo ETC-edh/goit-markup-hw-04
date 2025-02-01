@@ -919,23 +919,23 @@ text-decoration: none;
   padding: 40px 20px;
 }
 .footer-container {
+  display: flex;
   justify-content: space-between;
   align-items: baseline;
   max-width: 1158px;
   margin: 0 auto;
 }
-  .logo-p{
+  .footer-logo-container{
     margin-right: 120px;
+    flex: 1;
   }
 
 
 .footer-text {
   font-size: 14px;
   line-height: 1.5;
-  max-width: 264px;
   margin-top: 8px;
   color: #f4f4fd;
-
 }
 
 /* Sosyal Medya Başlığı */
@@ -953,6 +953,9 @@ text-decoration: none;
 .foot-social-links {
   display: flex;
   gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Sosyal Medya Link */
@@ -966,13 +969,12 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-transition: background-color 250ms;
+transition: background-color 250ms ease;
 width: 100%;
 height: 100%;
 }
 /* Sosyal Medya Hover ve Focus Efektleri */
-.footer-links:hover,
-.footer-links:focus {
+.footer-links:hover,{
   background-color: #31d0aa;
 }
 
