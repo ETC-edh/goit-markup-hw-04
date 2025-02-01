@@ -48,26 +48,25 @@ header {
   height: 72px;
 }
 
-header.sol-blok,
-header.sag-blok {
-  display: flex;
-}
-
-header.sol-blok {
+.sol-blok {
   margin-left: 156px;
+  display: flex;
 }
 .sol-blok .logo svg {
   display: flex;
   width: 115px;
   height: 24px;
 }
-.sol-blok nav {
-  margin-left: 76px;
-}
+
 .sol-blok nav ul {
   display: flex;
   gap: 40px;
 }
+
+header.sag-blok {
+  display: flex;
+}
+
 
 /* Address Section */
 .contact-info {
@@ -476,7 +475,7 @@ text-decoration: none;
 }
 
 /* Sosyal Medya Link */
-.social-item {
+.foot-social-item {
   width: 40px;
   height: 40px;
 }
