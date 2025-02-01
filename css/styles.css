@@ -40,16 +40,15 @@ body {
   0px 1px 6px rgba(46, 47, 66, 0.08);
   justify-content: space-between;
   align-items: center;
-
-}
-.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
   padding: 20px 40px;
   height: 72px;
+
 }
+
 
 .logo-class svg {
   margin-left: 156px;
